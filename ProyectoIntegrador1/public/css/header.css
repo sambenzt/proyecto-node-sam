@@ -19,7 +19,7 @@ header a{
 }
 header nav ul li a:hover,
 header a:hover{
-    color: lightsteelblue;
+    color: #117A65 ;
     text-decoration: none;
 }
 .logo{
