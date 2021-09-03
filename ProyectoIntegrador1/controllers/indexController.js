@@ -1,5 +1,5 @@
 const controller = {
-    index:(req, res, next) {
+    index:(req, res, next){
         res.send('index');
       },
     show:
