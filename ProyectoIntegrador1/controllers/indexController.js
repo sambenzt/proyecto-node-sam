@@ -1,9 +1,8 @@
 const controller = {
-    index:(req, res, next){
+    index:function (req, res, next){
         res.send('index');
       },
-    show:
-    create:
+    
 };
 
-module.exports = controlador;
+module.exports = controller;

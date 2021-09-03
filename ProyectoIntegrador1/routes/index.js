@@ -6,7 +6,9 @@ const indexController = require('../controllers/indexController');
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
-
+router.get ('/result', function (req, res){
+  res.render ('resultadosBusqueda');
+}) 
 
 
 module.exports = router;
