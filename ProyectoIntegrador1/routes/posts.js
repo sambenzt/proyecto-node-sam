@@ -1,10 +1,7 @@
 var express = require('express');
 var router = express.Router();
-router.get('/detail', function(req, res) {
-    res.render('detallePost');
-  });
-router.get('/add', function(req, res) {
-    res.render('agregarPost');
-  });
+const postsController = require('../controllers/postsController');
+router.get('/detail', postsController.posts);
+router.get('/add', postsController.agregarPost );
 
 module.exports = router
