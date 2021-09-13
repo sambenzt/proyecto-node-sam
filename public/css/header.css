@@ -53,5 +53,5 @@ header nav form input, header nav form ::placeholder, header nav form span{
     color: white !important;
 }
 .uk-backgroud-primary {
-    background-color: teal;
+    background-color: teal !important;
 }
