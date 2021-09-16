@@ -7,7 +7,7 @@ const posts = {
          brand: "New Zeland",
          manufactureDate: 2018,
          brand_id: 1,
-         brandUser: {id:1, username: `newzeland`, brandname:`Vinos New Zeland`},
+         brandUser: {id:1, username: `@newzeland`, brandname:`Vinos New Zeland`},
          likes: 1444,
          comments:[
             { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2 },
@@ -23,7 +23,7 @@ const posts = {
             brand: "Swartland",
             manufactureDate: 2014,
             brand_id: 2,
-            brandUser: {id:1, username: `vinoswartland`, brandname:`Vinos Swartland`},
+            brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`},
             likes: 1444,
             comments:[
                { content: `Quiero una copa!`, date: new Date (2021, 4, 15), likes: 6 },
@@ -54,7 +54,7 @@ const posts = {
             brand: "Palacio de Menadi",
             manufactureDate: 2013,
             brand_id: 4,
-            brandUser: {id:1, username: `vinosemilia`, brandname:`Vinos Emilia`},
+            brandUser: {id:1, username: `@vinosemilia`, brandname:`Vinos Emilia`},
             likes: 1444,
             comments:[
                { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 },
@@ -70,7 +70,7 @@ const posts = {
             brand: "Jacob´s Creek",
             manufactureDate: 2017,
             brand_id: 5,
-            brandUser: {id:1, username: `reservajacobscreek`, brandname:`Reserva Jacobs Creek`},
+            brandUser: {id:1, username: `@reservajacobscreek`, brandname:`Reserva Jacobs Creek`},
             likes: 1444,
             comments:[
                { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 },
@@ -86,7 +86,7 @@ const posts = {
             brand: "Gran Barossa",
             manufactureDate: 2017,
             brand_id: 6,
-            brandUser: {id:1, username: `vinosgranbarossa`, brandname:`Vinos Gran Barossa`},
+            brandUser: {id:1, username: `@vinosgranbarossa`, brandname:`Vinos Gran Barossa`},
             likes: 1444,
             comments:[
                { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 },
@@ -102,7 +102,7 @@ const posts = {
             brand: "Elephant in the Room",
             manufactureDate: 2019,
             brand_id: 7,
-            brandUser: {id:1, username: `elephantintheroom`, brandname:`Vinos Elephant`},
+            brandUser: {id:1, username: `@elephantintheroom`, brandname:`Vinos Elephant`},
             likes: 1444,
             comments:[
                { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 },
@@ -118,7 +118,7 @@ const posts = {
             brand: "Domeniile Blaga",
             manufactureDate: 2019,
             brand_id: 8,
-            brandUser: {id:1, username: `vinosdomeniileblaga`, brandname:`Vinos Domeniile Blaga`},
+            brandUser: {id:1, username: `@vinosdomeniileblaga`, brandname:`Vinos Domeniile Blaga`},
             likes: 1444,
             comments:[
                { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 },
@@ -134,7 +134,7 @@ const posts = {
             brand: "Borges",
             manufactureDate: 2013,
             brand_id: 9,
-            brandUser: {id:1, username: `vinosborges`, brandname:`Vinos Borges`},
+            brandUser: {id:1, username: `@vinosborges`, brandname:`Vinos Borges`},
             likes: 1444,
             comments:[
                { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 },
@@ -150,7 +150,7 @@ const posts = {
             brand: "Thalia",
             manufactureDate: 2014,
             brand_id: 10,
-            brandUser: {id:1, username: `vinosthalia`, brandname:`Vinos Thalia`},
+            brandUser: {id:1, username: `@vinosthalia`, brandname:`Vinos Thalia`},
             likes: 1444,
             comments:[
                { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 },
