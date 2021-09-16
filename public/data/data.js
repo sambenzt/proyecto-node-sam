@@ -26,10 +26,9 @@ const posts = {
             brandUser: {id:1, username: `vinoswartland`, brandname:`Vinos Swartland`},
             likes: 1444,
             comments:[
-               { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 },
-               { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 },
-               { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 },
-               { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 }
+               { content: `Quiero una copa!`, date: new Date (2021, 4, 15), likes: 6 },
+               { content: `Me gustaría comprarme unos cuantos`, date: new Date (2021, 3, 15), likes: 9 },
+               { content: `Donde se encuentran?`, date: new Date (2021, 9, 12), likes: 90 },
             ]
            },
            {
@@ -42,10 +41,10 @@ const posts = {
             brandUser: {id:1, username: `viñamaipo`, brandname:`Vinos Viña Maipo`},
             likes: 1444,
             comments:[
-               { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 },
-               { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 },
-               { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 },
-               { content: `aaa`, date: new Date (2021, 9, 15), likes: 9 }
+               { content: `:)`, date: new Date (2021, 3, 4), likes: 5 },
+               { content: `Woww`, date: new Date (2021, 7, 14), likes: 30 },
+               { content: `MMmmm`, date: new Date (2021, 2, 1), likes: 20 },
+               { content: `Quiero una copa entera!!`, date: new Date (2021, 2, 27), likes: 25 }
             ]
            },
            {
