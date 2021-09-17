@@ -2,7 +2,7 @@ const posts = {
     list:[
         {
          id: 1,
-         image: "../../images/sauvignonBlanc.jpeg",
+         image: "/images/sauvignonBlanc.jpeg",
          description: "Blanco Sauvignon",
          brand: "New Zeland",
          manufactureDate: 2018,
@@ -10,15 +10,15 @@ const posts = {
          brandUser: {id:1, username: `@newzeland`, brandname:`Vinos New Zeland`},
          likes: 1444,
          comments:[
-            { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2 },
-            { content: `WOW`, date: new Date (2021, 9, 8), likes: 9 },
-            { content: `Delicioso`, date: new Date (2021, 9, 12), likes: 90 },
-            { content: `!!!`, date: new Date (2021, 9, 15), likes: 54 }
+            { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
+            { content: `WOW`, date: new Date (2021, 9, 8), likes: 9,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
+            { content: `Delicioso`, date: new Date (2021, 9, 12), likes: 90, brandUser: {id:1, username: `viñamaipo`, brandname:`Vinos Viña Maipo`}, },
+            { content: `!!!`, date: new Date (2021, 9, 15), likes: 54, brandUser: {id:1, username: `viñamaipo`, brandname:`Vinos Viña Maipo`}, }
          ]
         },
         {
             id: 2,
-            image:"../../images/swartland.jpg",
+            image:"/images/swartland.jpg",
             description: "Tinto",
             brand: "Swartland",
             manufactureDate: 2014,
@@ -33,7 +33,7 @@ const posts = {
            },
            {
             id: 3,
-            image:"../../images/viñamaipo.jpeg",
+            image:"/images/viñamaipo.jpeg",
             description: "Blanco Sauvignon",
             brand: "Viña Maipo",
             manufactureDate: 2012,
@@ -49,7 +49,7 @@ const posts = {
            },
            {
             id: 4,
-            image:"../../images/palaciodemenadi.jpeg",
+            image:"/images/palaciodemenadi.jpeg",
             description: "Blanco",
             brand: "Palacio de Menadi",
             manufactureDate: 2013,
@@ -65,7 +65,7 @@ const posts = {
            },
            {
             id: 5,
-            image:"../../images/jacobscreekreserva.jpeg",
+            image:"/images/jacobscreekreserva.jpeg",
             description: "Tinto Shiraz",
             brand: "Jacob´s Creek",
             manufactureDate: 2017,
@@ -81,7 +81,7 @@ const posts = {
            },
            {
             id: 6,
-            image:"../../images/grandbarossa.jpeg",
+            image:"/images/grandbarossa.jpeg",
             description: "Tinto Shiraz",
             brand: "Gran Barossa",
             manufactureDate: 2017,
@@ -97,7 +97,7 @@ const posts = {
            },
            {
             id: 7,
-            image:"../../images/elephantintheroom.jpeg",
+            image:"/images/elephantintheroom.jpeg",
             description: "Cabernet Sauvignon",
             brand: "Elephant in the Room",
             manufactureDate: 2019,
@@ -113,7 +113,7 @@ const posts = {
            },
            {
             id: 8,
-            image:"../../images/domeniilleblac.jpeg",
+            image:"/images/domeniilleblac.jpeg",
             description: "Cabernet Sauvignon",
             brand: "Domeniile Blaga",
             manufactureDate: 2019,
@@ -129,7 +129,7 @@ const posts = {
            },
            {
             id: 9,
-            image:"../../images/borges.jpeg",
+            image:"/images/borges.jpeg",
             description: "Tinto",
             brand: "Borges",
             manufactureDate: 2013,
@@ -145,7 +145,7 @@ const posts = {
            },
            {
             id: 10,
-            image:"../../images/thalia.jpg",
+            image:"/images/thalia.jpg",
             description: "Tinto",
             brand: "Thalia",
             manufactureDate: 2014,

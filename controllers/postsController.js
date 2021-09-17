@@ -1,6 +1,8 @@
+const posts = require (`../data/data`)
 const controller = {
 posts: function(req, res) {
-    res.render('detallePost');
+  let postId = posts.find (req.params.id)
+    res.render('detallePost',{postId:postId});
   },
   agregarPost: function(req, res) {
     res.render('agregarPost');

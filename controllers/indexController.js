@@ -1,8 +1,9 @@
-const posts = require (`..modules/posts`)
+const posts = require (`../data/data`)
 
 const controller = {
     index: function(req, res, next) {
-      res.render('index', { title: 'Express' });
+
+      res.render('index', { title: 'Express', posts: posts.list });
     }, 
     result: function (req, res){
       res.render ('resultadoBusqueda');
