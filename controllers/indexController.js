@@ -1,7 +1,7 @@
 const posts = require (`../data/data`)
 
 const controller = {
-    index: function(req, res, next) {
+    index: function(req, res) {
 
       res.render('index', { title: 'Express', posts: posts.list });
     }, 
