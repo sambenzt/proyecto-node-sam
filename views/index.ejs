@@ -18,7 +18,7 @@
                         <div>
                             <img src="https://via.placeholder.com/40" alt="">
                         </div>
-                        <h4><a href="/users/profile"><%= post.brandUser.username %> </a></h4>
+                        <h4><a href="/users/profile/<%= post.brandUser.id %> "><%= post.brandUser.username %> </a></h4>
                         
                     </div>
                     <div class="post-body uk-flex uk-flex-center">
@@ -35,8 +35,8 @@
                             </li>
                         </ul>
                         <div class="post-pie uk-flex">
-                            <h5 class="uk-width-1-7"><a href="/users/profile"><%= post.brandUser.username %> </a></h5>
-                            <p class="uk-width-3-5"><%= post.description %> </p>
+                            <h5 class="description"><a href="/users/profile/<%= post.brandUser.id %> "><%= post.brandUser.username %> </a></h5>
+                            <p class="description"><%= post.description %> </p>
                         </div>
                     </div>
                     <div class="post-comentarios">
@@ -46,7 +46,7 @@
                     
                             <% for( let i = 0; i < post.comments.length; i++ ) { %>
                                 <li>
-                                    <a href="/users/profile">Usuario </a>
+                                    <a href="/users/profile/<%= post.comments[i].brandUser.id %> "><%= post.comments[i].brandUser.username %>   </a>
                                     <p><%= post.comments[i].content %> </p>
                                 </li>
                             <% } %>
