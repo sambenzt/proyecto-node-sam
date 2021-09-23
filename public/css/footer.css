@@ -5,6 +5,7 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+    font-family: 'Playfair Display', serif;
 }
 
 footer ul{
