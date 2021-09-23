@@ -6,6 +6,7 @@
 header{
     height: 55px;
     padding-top: 10px;
+    font-family: 'Playfair Display', serif;
 }
 header section{
     height: 100%;
@@ -26,8 +27,9 @@ header a:hover{
     margin: 0px;
 }
 .logo a{
-    font-family: 'Pacifico';
-    color: #1744B3;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight: 900;
 }
 .logo a:hover {
     text-decoration: none;
@@ -53,5 +55,5 @@ header nav form input, header nav form ::placeholder, header nav form span{
     color: white !important;
 }
 .uk-backgroud-primary {
-    background-color: teal !important;
+    background-color: tomato !important;
 }
