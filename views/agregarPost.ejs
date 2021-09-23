@@ -4,15 +4,26 @@
 
 
 <body>
-    <%- include("./partials/headerDeslogueado") %>
+    <%- include("./partials/headerLogueado") %>
    
 
     <main>
         <div class="uk-section uk-section-small">
-            <div class="uk-container uk-container-large uk-flex">
+            <div class="uk-container uk-container-large uk-flex uk-flex-middle uk-flex-column">
+                <h2 class="inputForm">Nueva publicación</h2>
                 <form action="">
-                    <h2>(Formulario para agregar un post)</h2>
 
+                    <p>
+                        <input class="inputForm" type="file" name="seleccionar">
+                    </p>
+                    
+                    <p>
+                        <input type="text" placeholder="Agregar descripción" name="pieDeImagen" class="inputForm">
+                    </p>
+
+                    <p>
+                        <button type="submit"><a class="buttonForm" href="/">Publicar</a></button>
+                    </p>
                 </form>
 
             </div>
