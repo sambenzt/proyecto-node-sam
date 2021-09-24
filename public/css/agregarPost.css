@@ -1,8 +1,16 @@
 .buttonForm{
     text-decoration: none;
     color: black;
+    padding: 10px;
+    font-size: larger;
 }
 
 .inputForm{
     font-family: 'Playfair Display', serif;
+    margin-bottom: 30px;
+}
+
+.caja{
+    margin-top: 100px;
+    
 }
