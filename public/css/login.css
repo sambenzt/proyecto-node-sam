@@ -1,8 +1,43 @@
+.bodyLogin{
+    background-image: url(/images/pexels-photo-5876702.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.cuadradoLogin{
+    height: 480px;
+    width: 500px;
+    margin-top: 10px;
+    /* margin-bottom: -30px; q pingo le pasaaa */
+    background-color: rgba(128, 128, 128, 0.787);
+
+}
+.titulo1{
+    font-family: 'Playfair Display', serif;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+    text-align: center;
+}
+.titulo2{
+    font-family: 'Playfair Display', serif;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    font-size: large;
+    text-align: center;
+}
+
 .inputForm{
     font-family: 'Playfair Display', serif;
+    margin-bottom: 10px;
+    font-size: large;
+    text-align: center;
 }
 
 .buttonForm{
     font-family: 'Playfair Display', serif;
-
+    font-size: medium;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
 }

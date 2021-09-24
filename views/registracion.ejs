@@ -3,14 +3,19 @@
 
     <%- include("./partials/head") %>
 
-<body>
+<body class="bodyRegistro">
     <%- include("./partials/headerDeslogueado") %>
 
     <main>
         <div class="uk-section uk-section-small">
             <div class="uk-container uk-container-large uk-flex uk-flex-middle uk-flex-center uk-flex-column">
-                <h2>Registrate</h2>
-                <form action="">
+             
+                <div class="cuadradoRegistro">
+
+                <h1 class="titulo1">Regístrate</h1>
+                <h3 class="titulo2"> para ver y compartir tus aventuras vinícolas!</h3>
+
+                <form class="inputForm" action="/" target="/">
                     <p>
                         <input type="text" placeholder="Nombre" name="name" class="inputForm">
                     </p>
@@ -32,9 +37,10 @@
                         <input type= "password" placeholder="Contraseña" name="password" class="inputForm">
                     </p>
     
-                        <button class="buttonForm" type="submit">Registrate</button>
+                        <button class="buttonForm" type="submit">Regístrate!</button>
                     
                     
+               </div>
             
                 </form>
             </div>

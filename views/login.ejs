@@ -3,27 +3,36 @@
 
     <%- include("./partials/head") %>
 
-<body>
+<body class="bodyLogin">
     <%- include("./partials/headerDeslogueado") %>
 
     <main>
-        <div class="uk-section uk-section-small">
-            <div class="uk-container uk-container-large uk-flex uk-flex-middle uk-flex-center uk-flex-column">
-                <h2 class="inputForm">Iniciá sesión con tu cuenta</h2>
-                <form class="inputForm" action="/users" target="/users">
-                    <p>
-                        <input type= "email" placeholder="Email" name="email" class="inputForm">
-                    </p>
+    
+            <div class="uk-section uk-section-small">
+                <div class="uk-container uk-container-large uk-flex uk-flex-middle uk-flex-center uk-flex-column">
 
-                    <p>
-                        <input type= "password" placeholder="Contraseña" name="password" class="inputForm">
-                    </p>
+                    <div class="cuadradoLogin">
 
-                    <button class="buttonForm" type="submit">Iniciá sesión</button>
+                        <h1 class="titulo1">Bienvenido de nuevo!</h1>
+                        <h3 class="titulo2">Iniciá sesión con tu email y contraseña</h3>
+                        
+                        <form class="inputForm" action="/" target="/">
+                            <p>
+                                <input type= "email" placeholder="Email" name="email" class="inputForm">
+                            </p>
+        
+                            <p>
+                                <input type= "password" placeholder="Contraseña" name="password" class="inputForm">
+                            </p>
+        
+                            <button class="buttonForm" type="submit">Iniciá sesión</button>
+        
+                        </form>
+                    </div>
 
-                </form>
+                   
+                </div>
             </div>
-        </div>
     </main>
 
     <%- include("./partials/footer") %> 
