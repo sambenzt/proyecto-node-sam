@@ -11,10 +11,10 @@ const posts = {
          brandUser: {id:1, username: `@newzeland`, brandname:`Vinos New Zeland`, profilepic: "/images/martu2_newzeland .jpg"},
          likes: 1444,
          comments:[
-            { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
-            { content: `WOW`, date: new Date (2021, 9, 8), likes: 9,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
-            { content: `Delicioso`, date: new Date (2021, 9, 12), likes: 90, brandUser: {id:1, username: `@viñamaipo`, brandname:`Vinos Viña Maipo`}, },
-            { content: `!!!`, date: new Date (2021, 9, 15), likes: 54, brandUser: {id:1, username: `@viñamaipo`, brandname:`Vinos Viña Maipo`}, }
+            { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@joserichi`, brandname:`Jose Richi`}, },
+            { content: `WOW`, date: new Date (2021, 9, 8), likes: 9,  brandUser: {id:1, username: `@vinosmaila`, brandname:`Vinos Maila`}, },
+            { content: `Delicioso`, date: new Date (2021, 9, 12), likes: 90, brandUser: {id:1, username: `@ilovewine`, brandname:`I love Wine`}, },
+            { content: `!!!`, date: new Date (2021, 9, 15), likes: 54, brandUser: {id:1, username: `@viñamari`, brandname:`Viña Mari`}, }
          ]
         },
         {
@@ -27,10 +27,9 @@ const posts = {
             brandUser: {id:2, username: `@vinoswartland`, brandname:`Vinos Swartland`, profilepic: "/images/logo2.jfif"},
             likes: 1444,
             comments:[
-               { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
-               { content: `WOW`, date: new Date (2021, 9, 8), likes: 9,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
-               { content: `Delicioso`, date: new Date (2021, 9, 12), likes: 90, brandUser: {id:1, username: `viñamaipo`, brandname:`Vinos Viña Maipo`}, },
-               { content: `!!!`, date: new Date (2021, 9, 15), likes: 54, brandUser: {id:1, username: `viñamaipo`, brandname:`Vinos Viña Maipo`}, }
+               { content: `Quiero una copa!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@marthawyl`, brandname:`Martha Whyl`}, },
+               { content: `De no creer..`, date: new Date (2021, 9, 8), likes: 9,  brandUser: {id:1, username: `@ vilmastuart`, brandname:`Vilma Stuart`}, },
+               { content: `In love`, date: new Date (2021, 9, 12), likes: 90, brandUser: {id:1, username: `@emilyww`, brandname:`Emily`}, },
             ]
            },
            {
@@ -43,10 +42,9 @@ const posts = {
             brandUser: {id:3, username: `@viñamaipo`, brandname:`Vinos Viña Maipo`, profilepic: "/images/logo3.jpg"},
             likes: 1444,
             comments:[
-               { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
-               { content: `WOW`, date: new Date (2021, 9, 8), likes: 9,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
-               { content: `Delicioso`, date: new Date (2021, 9, 12), likes: 90, brandUser: {id:1, username: `viñamaipo`, brandname:`Vinos Viña Maipo`}, },
-               { content: `!!!`, date: new Date (2021, 9, 15), likes: 54, brandUser: {id:1, username: `viñamaipo`, brandname:`Vinos Viña Maipo`}, }
+               { content: `YA quierooo!!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswondy`, brandname:`Vinos Wondy`}, },
+               { content: `Riquisimo`, date: new Date (2021, 9, 8), likes: 9,  brandUser: {id:1, username: `@ursulaco`, brandname:`Ursula Co`}, },
+               { content: `Delicioso`, date: new Date (2021, 9, 12), likes: 90, brandUser: {id:1, username: `@ignaciohorr`, brandname:`Ignacio Horr`}, },
             ]
            },
            {
@@ -61,8 +59,8 @@ const posts = {
             comments:[
                { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
                { content: `WOW`, date: new Date (2021, 9, 8), likes: 9,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
-               { content: `Delicioso`, date: new Date (2021, 9, 12), likes: 90, brandUser: {id:1, username: `viñamaipo`, brandname:`Vinos Viña Maipo`}, },
-               { content: `!!!`, date: new Date (2021, 9, 15), likes: 54, brandUser: {id:1, username: `viñamaipo`, brandname:`Vinos Viña Maipo`}, }
+               { content: `Delicioso`, date: new Date (2021, 9, 12), likes: 90, brandUser: {id:1, username: `@viñamaipo`, brandname:`Vinos Viña Maipo`}, },
+               { content: `!!!`, date: new Date (2021, 9, 15), likes: 54, brandUser: {id:1, username: `@viñamaipo`, brandname:`Vinos Viña Maipo`}, }
             ]
            },
            {
@@ -77,8 +75,8 @@ const posts = {
             comments:[
                { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
                { content: `WOW`, date: new Date (2021, 9, 8), likes: 9,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
-               { content: `Delicioso`, date: new Date (2021, 9, 12), likes: 90, brandUser: {id:1, username: `viñamaipo`, brandname:`Vinos Viña Maipo`}, },
-               { content: `!!!`, date: new Date (2021, 9, 15), likes: 54, brandUser: {id:1, username: `viñamaipo`, brandname:`Vinos Viña Maipo`}, }
+               { content: `Delicioso`, date: new Date (2021, 9, 12), likes: 90, brandUser: {id:1, username: `@viñamaipo`, brandname:`Vinos Viña Maipo`}, },
+               { content: `!!!`, date: new Date (2021, 9, 15), likes: 54, brandUser: {id:1, username: `@viñamaipo`, brandname:`Vinos Viña Maipo`}, }
             ]
            },
            {
