@@ -6,7 +6,7 @@ const controller = {
       res.render('index', { title: 'Express', posts: posts.list });
     }, 
     result: function (req, res){
-      res.render ('resultadoBusqueda');
+      res.render ('resultadoBusqueda', { title: 'Express', posts: posts.list });
     }
     
 };
