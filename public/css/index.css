@@ -1,3 +1,6 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
 article.post{
     border: 1px solid lightgray;
     border-radius: 10px;
@@ -75,4 +78,5 @@ article.post div.post-comentarios ul li p{
 }
 .atUsername{
     color: #56070C;
+    font-family: 'Playfair Display', serif;
 }

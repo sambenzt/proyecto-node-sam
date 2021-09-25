@@ -8,7 +8,6 @@
     width: 500px;
     margin-top: 10px;
     background-color: rgba(128, 128, 128, 0.787);
-
 }
 .titulo1{
     font-family: 'Playfair Display', serif;
@@ -38,5 +37,5 @@
     font-size: medium;
     display: block;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 70px;
 }

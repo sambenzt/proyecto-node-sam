@@ -3,7 +3,7 @@
 
     <%- include("./partials/head") %>
 
-<body>
+<body class="bodyEditarPerf">
     <%- include("./partials/headerLogueado") %>
     <main>
         <div class="uk-section uk-section-small">
@@ -11,9 +11,10 @@
                 <div class="cuadradoRegistro">
 
                     <h1 class="titulo1">Editar perfil</h1>
+                    <h3 class="titulo2">realiza todos los cambios en tu perfil</h3>
                   
     
-                    <form class="inputForm" action="/" target="/">
+                    <form class="inputForm" action="/users/profile/1" target="/users/profile/1">
                         <p>
                             <input type="text" placeholder="Nuevo nombre" name="name" class="inputForm">
                         </p>
@@ -27,7 +28,7 @@
                         </p>
     
                         <p class="date">
-                            <p style="margin: 0;">Fecha de nacimiento</p>
+                            <p style="margin-bottom: -20px; padding: 0;">Fecha de nacimiento</p>
                             <input type="date" name="date" class="inputForm">
                         </p>
                             

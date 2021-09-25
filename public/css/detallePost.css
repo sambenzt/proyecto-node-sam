@@ -1,12 +1,8 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
 section.detalle-container{
     border: 1px solid lightgray;
-}
-article.detalle-post{
-    /* border-right: 1px solid lightgray; */
-}
-
-article.detalle-post .imagen-post{
-
 }
 
 .comentarios-detalle{
@@ -61,6 +57,14 @@ article.detalle-post .imagen-post{
     text-decoration: none;
     margin-right: 4px !important;
 }
-
+.fotoPerfil{
+    width: 80px;
+}
+.usernameDetalle{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-family: 'Playfair Display', serif;
+}
 
 

@@ -7,13 +7,13 @@ const posts = {
          brand: "New Zeland",
          manufactureDate: 2018,
          brand_id: 1,
-         brandUser: {id:1, username: `@newzeland`, brandname:`Vinos New Zeland`},
+         brandUser: {id:1, username: `@newzeland`, brandname:`Vinos New Zeland`, profilepic: "/images/martu2_newzeland .jpg"},
          likes: 1444,
          comments:[
             { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
             { content: `WOW`, date: new Date (2021, 9, 8), likes: 9,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
-            { content: `Delicioso`, date: new Date (2021, 9, 12), likes: 90, brandUser: {id:1, username: `viñamaipo`, brandname:`Vinos Viña Maipo`}, },
-            { content: `!!!`, date: new Date (2021, 9, 15), likes: 54, brandUser: {id:1, username: `viñamaipo`, brandname:`Vinos Viña Maipo`}, }
+            { content: `Delicioso`, date: new Date (2021, 9, 12), likes: 90, brandUser: {id:1, username: `@viñamaipo`, brandname:`Vinos Viña Maipo`}, },
+            { content: `!!!`, date: new Date (2021, 9, 15), likes: 54, brandUser: {id:1, username: `@viñamaipo`, brandname:`Vinos Viña Maipo`}, }
          ]
         },
         {
@@ -23,7 +23,7 @@ const posts = {
             brand: "Swartland",
             manufactureDate: 2014,
             brand_id: 2,
-            brandUser: {id:2, username: `@vinoswartland`, brandname:`Vinos Swartland`},
+            brandUser: {id:2, username: `@vinoswartland`, brandname:`Vinos Swartland`, profilepic: "/images/logo2.jfif"},
             likes: 1444,
             comments:[
                { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
@@ -39,7 +39,7 @@ const posts = {
             brand: "Viña Maipo",
             manufactureDate: 2012,
             brand_id: 3,
-            brandUser: {id:3, username: `viñamaipo`, brandname:`Vinos Viña Maipo`},
+            brandUser: {id:3, username: `viñamaipo`, brandname:`Vinos Viña Maipo`, profilepic: "/public/images/logo3.jpg"},
             likes: 1444,
             comments:[
                { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
@@ -55,7 +55,7 @@ const posts = {
             brand: "Palacio de Menadi",
             manufactureDate: 2013,
             brand_id: 4,
-            brandUser: {id:4, username: `@vinosemilia`, brandname:`Vinos Emilia`},
+            brandUser: {id:4, username: `@vinosemilia`, brandname:`Vinos Emilia`, profilepic: "/public/images/attachment_75908874-e1552887176124.jpg"},
             likes: 1444,
             comments:[
                { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
@@ -87,7 +87,7 @@ const posts = {
             brand: "Gran Barossa",
             manufactureDate: 2017,
             brand_id: 6,
-            brandUser: {id:6, username: `@vinosgranbarossa`, brandname:`Vinos Gran Barossa`},
+            brandUser: {id:6, username: `@vinosgranbarossa`, brandname:`Vinos Gran Barossa`, profilepic: "/public/images/attachment_75908874-e1552887176124.jpg"},
             likes: 1444,
             comments:[
                { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
@@ -103,7 +103,7 @@ const posts = {
             brand: "Elephant in the Room",
             manufactureDate: 2019,
             brand_id: 7,
-            brandUser: {id:7, username: `@elephantintheroom`, brandname:`Vinos Elephant`},
+            brandUser: {id:7, username: `@elephantintheroom`, brandname:`Vinos Elephant`, profilepic: "/public/images/attachment_75908874-e1552887176124.jpg"},
             likes: 1444,
             comments:[
                { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
@@ -119,7 +119,7 @@ const posts = {
             brand: "Domeniile Blaga",
             manufactureDate: 2019,
             brand_id: 8,
-            brandUser: {id:8, username: `@vinosdomeniileblaga`, brandname:`Vinos Domeniile Blaga`},
+            brandUser: {id:8, username: `@vinosdomeniileblaga`, brandname:`Vinos Domeniile Blaga`, profilepic: "/public/images/attachment_75908874-e1552887176124.jpg"},
             likes: 1444,
             comments:[
                { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
@@ -135,7 +135,7 @@ const posts = {
             brand: "Borges",
             manufactureDate: 2013,
             brand_id: 9,
-            brandUser: {id:9, username: `@vinosborges`, brandname:`Vinos Borges`},
+            brandUser: {id:9, username: `@vinosborges`, brandname:`Vinos Borges`, profilepic: "/public/images/attachment_75908874-e1552887176124.jpg"},
             likes: 1444,
             comments:[
                { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
@@ -151,7 +151,7 @@ const posts = {
             brand: "Thalia",
             manufactureDate: 2014,
             brand_id: 10,
-            brandUser: {id:10, username: `@vinosthalia`, brandname:`Vinos Thalia`},
+            brandUser: {id:10, username: `@vinosthalia`, brandname:`Vinos Thalia`, profilepic: "/public/images/attachment_75908874-e1552887176124.jpg"},
             likes: 1444,
             comments:[
                { content: `Qué rico!`, date: new Date (2021, 9, 15), likes: 2,  brandUser: {id:1, username: `@vinoswartland`, brandname:`Vinos Swartland`}, },
