@@ -4,38 +4,21 @@
     background-size: cover;
 }
 .cuadradoRegistro{
-    height: 600px;
-    width: 500px;
     margin-top: 10px;
-    background-color: green;
+    background-color: rgba(128, 128, 128, 0.787);
+    color: black;
+    width: 500px;
 }
 .titulo1{
-    font-family: 'Playfair Display', serif;
-    padding: 0;
-    margin: 0;
     margin-top: 40px;
-    text-align: center;
+    color: black;
 }
 .titulo2{
-    font-family: 'Playfair Display', serif;
-    padding: 0;
-    margin-top: 15px;
+    margin-bottom: 30px;
+    color: black;
+}
+.buttonForm{
+    margin-top: 30px;
     margin-bottom: 30px;
     font-size: large;
-    text-align: center;
-}
-   
-.inputForm{
-    font-family: 'Playfair Display', serif;
-    margin-bottom: 10px;
-    font-size: large;
-    text-align: center;
-}
-
-.buttonForm{
-    font-family: 'Playfair Display', serif;
-    font-size: medium;
-    display: block;
-    margin: auto;
-    margin-top: 50px;
 }
