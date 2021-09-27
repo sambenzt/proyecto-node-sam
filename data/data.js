@@ -1,4 +1,3 @@
-
 const posts = {
     list:[
         {
