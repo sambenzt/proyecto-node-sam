@@ -34,7 +34,7 @@ module.exports=(sequelize, DataTypes) => {
         Posteo.belongsTo(model.Usuario,{
             as:'usuario',
             foreignKey: 'usuario_id'
-        })                                                 // relaciones entre posteo y usuario y posteo y comentario
+        })                                     // relaciones entre posteo y usuario y posteo y comentario
         Posteo.hasMany(model.Comentario, {
             as: 'comentarios',      
             foreignKey: 'posteo_id'
