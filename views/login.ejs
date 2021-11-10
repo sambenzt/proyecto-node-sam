@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <%- include("./partials/head") %>
+<%- include("./partials/head") %>
 
-<body class="bodyLogin">
-    <%- include("./partials/headerDeslogueado") %>
+    <body class="bodyLogin">
+        <%- include("./partials/headerDeslogueado") %>
 
-    <main>
-    
-            <div class="uk-section uk-section-small">
-                <div class="uk-container uk-container-large uk-flex uk-flex-middle uk-flex-center uk-flex-column">
+            <main>
 
-                    <div class="cuadradoLogin">
+                <div class="uk-section uk-section-small">
+                    <div class="uk-container uk-container-large uk-flex uk-flex-middle uk-flex-center uk-flex-column">
 
-                        <h1 class="titulo1">Bienvenido de nuevo!</h1>
-                        <h3 class="titulo2">Iniciá sesión con tu email y contraseña</h3>
-                        
-                        <form class="inputForm" action="/" target="/">
-                            <p>
-                                <input type= "email" placeholder="Email" name="email" class="inputForm">
-                            </p>
-        
-                            <p>
-                                <input type= "password" placeholder="Contraseña" name="password" class="inputForm">
-                            </p>
-        
-                            <button class="buttonForm" type="submit">Iniciá sesión</button>
-        
-                        </form>
+                        <div class="cuadradoLogin">
+
+                            <h1 class="titulo1">Bienvenido de nuevo!</h1>
+                            <h3 class="titulo2">Iniciá sesión con tu email y contraseña</h3>
+
+                            <form class="inputForm" action="auth" method="POST">
+                                <p>
+                                    <input type="email" placeholder="Email" name="email" class="inputForm">
+                                </p>
+
+                                <p>
+                                    <input type="password" placeholder="Contraseña" name="password" class="inputForm">
+                                </p>
+
+                                <% if(locals.errors && errors.message) { %>
+                                    <p class="error">
+                                        <%= errors.message %>
+                                    </p>
+                                    <% }%>
+
+                                        <button class="buttonForm" type="submit">Iniciá sesión</button>
+
+                            </form>
+                        </div>
+
+
                     </div>
-
-                   
                 </div>
-            </div>
-    </main>
+            </main>
 
-    <%- include("./partials/footer") %> 
+            <%- include("./partials/footer") %>
 
-</body>
+    </body>
 
 </html>

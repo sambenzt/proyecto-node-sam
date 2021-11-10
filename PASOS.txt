@@ -1,0 +1,6 @@
+Pasos para login
+
+* Validar datos de entrada y mostrar los errores
+
+
+
